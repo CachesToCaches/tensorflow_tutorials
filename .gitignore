@@ -1,5 +1,6 @@
 # virtual environment folder
 tensorflow
 
-# python junk files
+# python auto-created files
 .Python
+*.pyc
