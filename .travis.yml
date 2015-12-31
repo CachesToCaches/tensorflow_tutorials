@@ -8,13 +8,14 @@ addons:
     packages:
       - gcc-4.8
       - g++-4.8
+      - libc6
 # Install dependencies
 install:
   # Add missing libc
-  - cd /tmp
-  - wget http://launchpadlibrarian.net/137699828/libc6_2.17-0ubuntu5_amd64.deb
-  - sudo dpkg -i libc6_2.17-0ubuntu5_amd64.deb
-  - cd -
+#  - cd /tmp
+#  - wget http://launchpadlibrarian.net/137699828/libc6_2.17-0ubuntu5_amd64.deb
+#  - sudo dpkg -i libc6_2.17-0ubuntu5_amd64.deb
+#  - cd -
   # Update compiler versions
   - export CC="gcc-4.8"
   - export CXX="g++-4.8"
